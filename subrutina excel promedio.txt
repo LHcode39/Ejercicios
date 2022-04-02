@@ -1,0 +1,24 @@
+Sub prueba()
+numero = InputBox("agregar numero ")        
+num = 0
+est = 0
+
+
+   Do While numero >= 0
+        num = num + numero
+        est = est + 1
+        numero = InputBox("agregar numero ")
+
+    
+          
+    Loop
+
+    promedio = num / est                      
+    Range("D1").Value = promedio              
+                                              
+                                              
+    
+    
+
+
+End Sub
